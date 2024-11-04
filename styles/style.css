@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-position: center; 
+    background-size: cover; 
+    background-color: rgb(20, 250, 212);
+}
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding:10px;
+    text-align: center;
+}
+.navbar{
+    background-color: black !important;
+}
+.navbar div >a{
+    color: white !important;
+}
+.navbar ul>li>a{
+    color: white !important;
+}
+.navbar ul{
+    position: absolute;
+    left: 35%;
+}
+h2{
+    text-align:center;
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin-left:60px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    margin: 20px;
+}
+.content {
+    flex: 3;
+    padding: 20px;
+    border-radius: 8px;
+}
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color:aquamarine;
+}
+.sidebar h3 {
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar ul li a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.float-image {
+    margin: 10px;
+    width: 150px;
+    float: left;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    clear: both;
+}
